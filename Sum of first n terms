@@ -1,0 +1,10 @@
+Q2:- Given an integer N.Calculate the sum of series 1^3 + 2^3 + 3^3 + 4^3 + … till N-th term.
+SOLUTION:- 
+class Solution {
+  public:
+    long long sumOfSeries(long long N) {
+        // code here
+        long long ans=(N) * (N + 1) / 2;
+        return powl(ans,2);
+    }
+};
