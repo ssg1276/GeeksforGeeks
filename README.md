@@ -8,3 +8,4 @@ Q5:- https://www.geeksforgeeks.org/problems/key-pair5616/1?utm_source=geeksforge
 Q6:- https://www.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1?page=1&difficulty=Medium&sortBy=submissions
 Q7:- https://www.geeksforgeeks.org/problems/majority-element-1587115620/1?page=1&difficulty=Medium&sortBy=submissions
 Q8:- https://www.geeksforgeeks.org/problems/next-permutation5226/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+Q9:- https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
