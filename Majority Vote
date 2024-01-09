@@ -1,0 +1,89 @@
+You are given a list of integers nums where each number represents a vote to a candidate. Return the ids of the candidates that have greater than n/3 votes, If there's not a majority vote, return -1. 
+
+Example 1:
+Input:
+n = 11
+nums = [2, 1, 5, 5, 5, 5, 6, 6, 6, 6, 6]
+Output:
+[5,6]
+Explanation:
+5 and 6 occur more n/3 times.
+
+SOLUTION:-
+//{ Driver Code Starts
+#include <bits/stdc++.h>
+using namespace std;
+
+// } Driver Code Ends
+class Solution {
+  public:
+    vector<int> Solve(int n, vector<int>& nums) {
+        // Code here
+         vector<int> ans;
+        int c1=0;
+	    int c2=0;
+     	int el1=INT_MIN;
+    	int el2=INT_MIN;
+
+	    for(int i=0;i<n;i++){
+		if(c1==0 && el2!=nums[i]){
+			c1=1;
+			el1=nums[i];
+		}
+		else if(c2==0 && el1!=nums[i]){
+			c2=1;
+			el2=nums[i];
+		}
+		else if(nums[i]==el1){c1++;}
+		else if(nums[i]==el2){c2++;}
+		else{
+			c1--;
+		    c2--;
+			}
+    	}
+
+    	c1=0;c2=0;
+    	for(int i=0;i<n;i++){
+	    	if(el1==nums[i]){c1++;}
+	        if(el2==nums[i]){c2++;}
+    	}
+
+    	if(c1>n/3){
+	    	ans.push_back(el1);
+    	}
+    	if(c2>n/3){
+	    	ans.push_back(el2);
+    	}
+    
+    if(ans.empty()){
+       	ans.push_back(-1);
+    }
+    return ans;
+    }
+    
+};
+
+//{ Driver Code Starts.
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<int> a;
+        for (int i = 0; i < n; ++i) {
+            int x;
+            cin >> x;
+            a.push_back(x);
+        }
+        Solution obj;
+
+        vector<int> res = obj.Solve(n, a);
+
+        for (auto x : res) cout << x << " ";
+
+        cout << "\n";
+    }
+    return 0;
+}
+// } Driver Code Ends
