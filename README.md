@@ -10,3 +10,4 @@ Q7:- https://www.geeksforgeeks.org/problems/majority-element-1587115620/1?page=1
 Q8:- https://www.geeksforgeeks.org/problems/next-permutation5226/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q9:- https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q10:- https://www.geeksforgeeks.org/problems/valid-pair-sum--141631/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+Q11:- https://www.geeksforgeeks.org/problems/majority-vote/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
