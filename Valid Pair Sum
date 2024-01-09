@@ -1,0 +1,36 @@
+Given an array of size N, find the number of distinct pairs {i, j} (i != j) in the array such that the sum of a[i] and a[j] is greater than 0.
+
+Example 1:
+
+Input: N = 3, a[] = {3, -2, 1}
+Output: 2
+Explanation: {3, -2}, {3, 1} are two 
+possible pairs.
+
+SOLUTION:-
+//User function Template for C++
+
+
+class Solution{
+    
+    public:
+    long long ValidPair(int a[], int n) 
+    { 
+    	// Your code goes here 
+    	sort(a,a+n);
+    	long long l=0;
+    	long long r=n-1;
+    	long long c=0;
+    	while(l<r){
+    	    long long ans=a[l]+a[r];
+    	    if(ans>0){
+    	        c+=r-l;;
+    	        r--;
+    	    }
+    	    else{
+    	        l++;
+    	    }
+    	}
+    	return c;
+    }   
+};
