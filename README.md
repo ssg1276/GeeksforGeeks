@@ -11,3 +11,4 @@ Q8:- https://www.geeksforgeeks.org/problems/next-permutation5226/1?utm_source=ge
 Q9:- https://www.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q10:- https://www.geeksforgeeks.org/problems/valid-pair-sum--141631/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q11:- https://www.geeksforgeeks.org/problems/majority-vote/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+Q12:- https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1?page=2&difficulty=Medium&sortBy=submissions
