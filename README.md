@@ -14,3 +14,4 @@ Q11:- https://www.geeksforgeeks.org/problems/majority-vote/1?utm_source=geeksfor
 Q12:- https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1?page=2&difficulty=Medium&sortBy=submissions
 Q13:- https://www.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q14:- https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+Q15:- https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
