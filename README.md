@@ -16,3 +16,4 @@ Q13:- https://www.geeksforgeeks.org/problems/find-triplets-with-zero-sum/1?utm_s
 Q14:- https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 Q15:- https://www.geeksforgeeks.org/problems/maximum-product-subarray3604/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q16:- https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1?page=1&difficulty=School,Basic,Easy&sortBy=submissions
+Q17:- https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
