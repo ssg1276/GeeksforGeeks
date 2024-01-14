@@ -1,0 +1,61 @@
+Given an unsorted array of integers and a sum. The task is to count the number of subarray which adds to the given sum.
+
+Example 1:
+
+Input:
+n = 5
+arr[] = {10,2,-2,-20,10}
+sum = -10
+Output: 3
+Explanation: Subarrays with sum -10 are: 
+[10, 2, -2, -20], [2, -2, -20, 10] and 
+[-20, 10].
+
+SOLUTION:-
+//{ Driver Code Starts
+#include<bits/stdc++.h>
+using namespace std;
+
+
+// } Driver Code Ends
+class Solution{
+    public:
+    //Function to count the number of subarrays which adds to the given sum.
+    int subArraySum(int arr[], int n, int sum)
+    {
+       map<int,int>mpp;
+    	int prefix=0;
+    	mpp[0]=1;
+        int c=0;
+    	for(int i=0;i<n;i++){
+    	    prefix+=arr[i];
+    	    int z=prefix-sum;
+    	    if(mpp.find(z)!=mpp.end()){
+    	        c+=mpp[z];
+    	    }
+    	    mpp[prefix]++;
+    	}
+    	return c;
+    }
+};
+
+//{ Driver Code Starts.
+
+int main()
+{
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n,sum=0;
+	    cin>>n;
+	    int arr[n];
+	    for(int i=0;i<n;i++)
+	    cin>>arr[i];
+	    cin>>sum;
+	    Solution obj;
+	    cout<<obj.subArraySum(arr, n, sum)<<endl;
+	}
+	return 0;
+}
+// } Driver Code Ends
