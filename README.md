@@ -24,3 +24,4 @@ Q21:- https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/
 Q22:- https://www.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q23:- https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 Q24:- https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+Q25:- https://www.geeksforgeeks.org/problems/arranging-the-array1131/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
