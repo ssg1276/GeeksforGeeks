@@ -1,0 +1,27 @@
+Given an array of length N consisting of only 0s and 1s in random order. Modify the array to segregate 0s on left side and 1s on the right side of the array.
+
+Example 1:
+
+Input:
+N = 5
+arr[] = {0, 0, 1, 1, 0}
+Output: 0 0 0 1 1
+
+SOLUTION:-
+class Solution{   
+public:
+    void segregate0and1(int arr[], int n) {
+        // code here
+        int l=0;
+        int h=n-1;
+        while(l<=h){
+            if(arr[l]==0){
+                l++;
+            }
+            else if(arr[l]==1){
+                swap(arr[l],arr[h]);
+                h--;
+            }
+        }
+    }
+};
