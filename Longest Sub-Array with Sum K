@@ -1,0 +1,45 @@
+Given an array containing N integers and an integer K., Your task is to find the length of the longest Sub-Array with the sum of the elements equal to the given value K.
+Example 1:
+ 
+
+Input :
+A[] = {10, 5, 2, 7, 1, 9}
+K = 15
+
+Output : 4
+Explanation:
+The sub-array is {5, 2, 7, 1}.
+
+SOLUTION:-
+class Solution{
+    public:
+    int lenOfLongSubarr(int A[],  int N, int K) 
+    { 
+        // Complete the function
+        map<long long,int> mpp;
+        int maxLen=0;
+        long long sum=0;
+        for (int i = 0; i < N; i++) {
+           sum += A[i];
+
+        if (sum == K) {
+            maxLen = max(maxLen, i + 1);
+        }
+
+        long long rem = sum - K;
+
+       
+        if (mpp.find(rem) != mpp.end()) {
+            int len = i - mpp[rem];
+            maxLen = max(maxLen, len);
+        }
+
+        if (mpp.find(sum) == mpp.end()) {
+            mpp[sum] = i;
+        }
+    }
+
+    return maxLen;
+    } 
+
+};
