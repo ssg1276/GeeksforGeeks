@@ -31,3 +31,4 @@ Q28:- https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1?
 Q29:- https://www.geeksforgeeks.org/problems/peak-element/1?page=1&difficulty=Medium&sortBy=submissions
 Q30:- https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q31:- https://www.geeksforgeeks.org/problems/find-element-occuring-once-when-all-other-are-present-thrice/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+Q32:- https://www.geeksforgeeks.org/problems/element-appearing-once2552/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
