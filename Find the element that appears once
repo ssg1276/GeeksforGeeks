@@ -1,0 +1,38 @@
+Given a sorted array A[] of N positive integers having all the numbers occurring exactly twice, except for one number which will occur only once. Find the number occurring only once.
+
+Example 1:
+
+Input:
+N = 5
+A = {1, 1, 2, 5, 5}
+Output: 2
+Explanation: 
+Since 2 occurs once, while
+other numbers occur twice, 
+2 is the answer.
+
+SOLUTION:-
+class Solution{
+public:	
+	int search(int A[], int N){
+	    //code
+	    if(N==1) return A[0];
+	    if(A[0]!=A[1]) return A[0];
+	    if(A[N-1]!=A[N-2]) return A[N-1];
+	    int low=1;
+	    int high=N-2;
+	    while(low<=high){
+	        int mid=(low+high)/2;
+	        if(A[mid+1]!=A[mid] && A[mid-1]!=A[mid]){
+	            return A[mid];
+	        }
+	        else if(A[mid]==A[mid+1] && mid%2==0 || A[mid]==A[mid-1] && mid%2!=0){
+	            low=mid+1;
+	        }
+	        else{
+	            high=mid-1;
+	        }
+	    }
+	    return -1;
+	}
+};
