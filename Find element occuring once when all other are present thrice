@@ -1,0 +1,35 @@
+Given an array of integers arr[] of length N, every element appears thrice except for one which occurs once.
+Find that element which occurs once.
+
+Example 1:
+
+Input:
+N = 4
+arr[] = {1, 10, 1, 1}
+Output:
+10
+Explanation:
+10 occurs once in the array while the other
+element 1 occurs thrice.
+
+SOLUTION:-
+class Solution {
+  public:
+    int singleElement(int arr[] ,int N) {
+        // code here
+        if(N==1) return arr[0];
+    sort(arr,arr+N);
+    if(arr[0]!=arr[1]) return arr[0];
+    if(arr[N-1]!=arr[N-2]) return arr[N-1];
+    int i=0,j=1,k=2;
+    while(i<N){
+        if(arr[i]!=arr[j] || arr[j]!=arr[i]){
+            return arr[i];
+        }
+        i=i+3;
+        j=j+3;
+        k=k+3;
+    }
+    return -1;
+    }
+};
