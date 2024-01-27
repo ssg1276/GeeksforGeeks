@@ -33,3 +33,4 @@ Q30:- https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1?utm_s
 Q31:- https://www.geeksforgeeks.org/problems/find-element-occuring-once-when-all-other-are-present-thrice/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 Q32:- https://www.geeksforgeeks.org/problems/element-appearing-once2552/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q33:- https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+Q34:- https://www.geeksforgeeks.org/problems/search-in-rotated-array-2/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
