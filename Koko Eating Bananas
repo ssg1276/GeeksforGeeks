@@ -1,0 +1,47 @@
+Given N piles of bananas, the ith pile has piles[i] bananas and H hours time until guards return (N <= H). Find the minimum (S) bananas to eat per hour such that Koko can eat all the bananas within H hours. Each hour, Koko chooses some pile of bananas and eats S bananas from that pile. If the pile has less than S bananas, then she consumes all of them, and wont eat any more bananas during that hour. 
+
+Example 1:
+Input:
+n = 4
+piles = [3, 6, 7, 11]
+H = 8
+Output:
+4
+
+SOLUTION:-
+class Solution {
+  public:
+  int highMax(vector<int>& piles){
+      int n=piles.size();
+      int maxi=INT_MIN;
+      for(int i=0;i<n;i++){
+          if(piles[i]>=maxi){
+              maxi=piles[i];
+          }
+      }
+      return maxi;
+  }
+  
+    int Solve(int N, vector<int>& piles, int H) {
+        // Code here
+        
+        
+        int low=1;
+        int high=highMax(piles);
+        while(low<=high){
+            int mid=(low+high)/2;
+            long long ans=0;
+            for(int i=0;i<N;i++){
+            ans+=ceil((double)piles[i]/(double)mid);
+            }
+            if(ans>H){
+                low=mid+1;
+            }
+            else{
+                high=mid-1;
+            }
+            
+        }
+        return low;
+    }
+};
