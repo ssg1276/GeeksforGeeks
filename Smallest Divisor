@@ -1,0 +1,46 @@
+You are given an array of integers nums and an integer K, your task is to find the smallest positive integer divisor, such that upon dividing all the elements of the given array by it, the sum of the division's result is less than or equal to the given integer K.
+Each result of the division is rounded to the nearest integer greater than or equal to that element. For Example: 7/3 = 3.
+
+Example:
+Input: 
+A = [1 2 5 9]
+6
+Output:
+5
+Explanation:
+If the divisor is 5 the sum will be 5 (1+1+1+2), which is less than 6.
+
+SOLUTION:-
+class Solution {
+  public:
+  int maxFun(vector<int>& nums){
+    int n=nums.size();
+    int maxi=INT_MIN;
+    for(int i=0;i<n;i++){
+        maxi=max(maxi,nums[i]);
+    }
+    return maxi;
+}
+    int smallestDivisor(vector<int>& nums, int K) {
+
+        // Write your code here.
+        int n=nums.size();
+        if(n>K) return -1;
+        int low=1;
+        int high=maxFun(nums);
+        while(low<=high){
+            int mid=(low+high)/2;
+            int sum=0;
+            for(int i=0;i<n;i++){
+                sum+=ceil((double)(nums[i])/(double)(mid));
+            }
+            if(sum>K){
+                low=mid+1;
+            }
+            else{
+                high=mid-1;
+            }
+        }
+        return low;
+    }
+};
