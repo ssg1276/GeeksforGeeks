@@ -36,3 +36,4 @@ Q33:- https://www.geeksforgeeks.org/problems/search-in-a-rotated-array4618/1?utm
 Q34:- https://www.geeksforgeeks.org/problems/search-in-rotated-array-2/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q35:- https://www.geeksforgeeks.org/problems/square-root/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 Q36:- https://www.geeksforgeeks.org/problems/koko-eating-bananas/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+Q37:- https://www.geeksforgeeks.org/problems/smallest-divisor/1?ref=header_search
