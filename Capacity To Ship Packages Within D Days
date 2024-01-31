@@ -1,0 +1,60 @@
+Given an array arr[] of N weights. Find the least weight capacity of a boat to ship all weights within D days.
+The ith weight has a weight of arr[i]. Each day, we load the boat with weights given by arr[i].We may not load more weight than the maximum weight capacity of the ship.
+
+Note: You have to load weights on the boat in the given order.
+
+Example 1:
+
+Input:
+N = 3
+arr[] = {1, 2, 1}
+D = 2
+Output:
+3
+Explanation:
+We can ship the weights in 2 days
+in the following way:-
+Day 1- 1,2
+Day 2- 1
+
+SOLUTION:-
+class Solution {
+  public:
+  
+  
+  int findDay(int weights[],int n, int cap){
+        int day=1;
+        int load=0;
+        
+        for(int i=0;i<n;i++){
+            if(load+weights[i]>cap){
+                day+=1;
+                load=weights[i];
+            }
+            else{
+                load+=weights[i];
+            }
+        }
+        return day;
+    }
+  
+  
+    int leastWeightCapacity(int arr[], int N, int D) {
+        // code here
+         
+        int low = *max_element(arr, arr+N);
+        int high = accumulate(arr, arr+N, 0);
+        while(low<=high){
+            int mid=(low+high)/2;
+            int noday=findDay(arr,N,mid);
+            if(noday<=D){
+                high=mid-1;
+            }
+            else{
+                low=mid+1;
+            }
+        }
+        return low;
+    }
+    
+};
