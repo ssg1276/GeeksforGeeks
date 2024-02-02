@@ -38,3 +38,4 @@ Q35:- https://www.geeksforgeeks.org/problems/square-root/1?utm_source=geeksforge
 Q36:- https://www.geeksforgeeks.org/problems/koko-eating-bananas/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q37:- https://www.geeksforgeeks.org/problems/smallest-divisor/1?ref=header_search
 Q38:- https://www.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+Q39:- https://www.geeksforgeeks.org/problems/aggressive-cows/0?ref=header_search
