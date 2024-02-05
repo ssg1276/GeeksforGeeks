@@ -40,3 +40,4 @@ Q37:- https://www.geeksforgeeks.org/problems/smallest-divisor/1?ref=header_searc
 Q38:- https://www.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-days/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q39:- https://www.geeksforgeeks.org/problems/aggressive-cows/0?ref=header_search
 Q40:- https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+Q41:- https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1?page=1&sortBy=submissions
