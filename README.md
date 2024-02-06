@@ -41,3 +41,4 @@ Q38:- https://www.geeksforgeeks.org/problems/capacity-to-ship-packages-within-d-
 Q39:- https://www.geeksforgeeks.org/problems/aggressive-cows/0?ref=header_search
 Q40:- https://www.geeksforgeeks.org/problems/the-painters-partition-problem1535/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q41:- https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1?page=1&sortBy=submissions
+Q42:- https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1?page=2&sortBy=submissions
