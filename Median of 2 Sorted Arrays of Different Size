@@ -1,0 +1,61 @@
+Given two sorted arrays array1 and array2 of size m and n respectively. Find the median of the two sorted arrays.
+
+Example 1:
+
+Input:
+m = 3, n = 4
+array1[] = {1,5,9}
+array2[] = {2,3,6,7}
+Output: 5
+Explanation: The middle element for
+{1,2,3,5,6,7,9} is 5
+
+
+SOLUTION:-
+class Solution{
+    public:
+    double MedianOfArrays(vector<int>& array1, vector<int>& array2)
+    {
+        // Your code goes here
+        int n1=array1.size();
+        int n2=array2.size();
+        int n=n1+n2;
+        int i=0,j=0;
+        int cnt=0;
+        int ind2=n/2;
+        int ind1=ind2 -1;
+        int ind1el=-1,ind2el=-1;
+        
+        while(i<n1 && j<n2){
+            if(array1[i]<array2[j]){
+                if(cnt==ind1) ind1el=array1[i];
+                if(cnt==ind2) ind2el=array1[i];
+                cnt++;
+                i++;
+            }
+            else{
+                if(cnt==ind1) ind1el=array2[j];
+                if(cnt==ind2) ind2el=array2[j];
+                cnt++;
+                j++;
+            }
+            
+        }
+        while(i<n1){
+            if(cnt==ind1) ind1el=array1[i];
+                if(cnt==ind2) ind2el=array1[i];
+                cnt++;
+                i++;
+        }
+        while(j<n2){
+            if(cnt==ind1) ind1el=array2[j];
+                if(cnt==ind2) ind2el=array2[j];
+                cnt++;
+                j++;
+        }
+     if(n%2==1){
+         return (double)ind2el;
+     }
+      return (double)((double)(ind1el + ind2el)) / 2.0;
+    }
+};
