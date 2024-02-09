@@ -44,3 +44,4 @@ Q41:- https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1?page=1&so
 Q42:- https://www.geeksforgeeks.org/problems/power-of-2-1587115620/1?page=2&sortBy=submissions
 Q43:- https://www.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/1?ref=header_search
 Q44:- https://www.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
+Q45:- https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
