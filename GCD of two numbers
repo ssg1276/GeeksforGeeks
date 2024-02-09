@@ -1,0 +1,23 @@
+Given two positive integers A and B, find GCD of A and B.
+
+
+Example 1:
+
+Input: A = 3, B = 6
+Output: 3
+Explanation: GCD of 3 and 6 is 3
+
+SOLUTION:-
+class Solution
+{
+	public:
+    int gcd(int A, int B) 
+	{ 
+	    // code here
+	    if(B==0){
+	        return A;
+	    }
+	    return gcd(B,A%B);
+	      
+	} 
+};
