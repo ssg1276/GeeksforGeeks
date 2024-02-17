@@ -46,3 +46,4 @@ Q43:- https://www.geeksforgeeks.org/problems/minimize-max-distance-to-gas-statio
 Q44:- https://www.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-different-sizes/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab
 Q45:- https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q46:- https://www.geeksforgeeks.org/problems/missing-number-in-shuffled-array0938/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
+Q47:- https://www.geeksforgeeks.org/problems/print-the-left-element2009/1?page=1&sortBy=difficulty
