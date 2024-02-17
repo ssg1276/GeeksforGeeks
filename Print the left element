@@ -1,0 +1,24 @@
+Given a array of length N, at each step it is reduced by 1 element. In the first step the maximum element would be removed, while in the second step minimum element of the remaining array would be removed, in the third step again the maximum and so on. Continue this till the array contains only 1 element. And find the final element remaining in the array.
+
+ 
+
+Example 1:
+
+Input:
+N = 7
+A[] = {7, 8, 3, 4, 2, 9, 5}
+Ouput:
+5
+
+SOLUTION:-
+class Solution{
+    public:
+    int leftElement(int a[], int n) {
+        // Your code goes here   
+          sort(a,a+n);   
+        int m=n/2;
+        if(n%2==0)
+            m--;
+        return(a[m]);
+    }
+};
