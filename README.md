@@ -48,3 +48,4 @@ Q45:- https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1?utm_source
 Q46:- https://www.geeksforgeeks.org/problems/missing-number-in-shuffled-array0938/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab
 Q47:- https://www.geeksforgeeks.org/problems/print-the-left-element2009/1?page=1&sortBy=difficulty
 Q48:- https://www.geeksforgeeks.org/problems/smaller-and-larger4005/1?page=1&sortBy=difficulty
+Q49:- https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=2&sortBy=submissions
