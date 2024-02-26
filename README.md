@@ -49,3 +49,4 @@ Q46:- https://www.geeksforgeeks.org/problems/missing-number-in-shuffled-array093
 Q47:- https://www.geeksforgeeks.org/problems/print-the-left-element2009/1?page=1&sortBy=difficulty
 Q48:- https://www.geeksforgeeks.org/problems/smaller-and-larger4005/1?page=1&sortBy=difficulty
 Q49:- https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1?page=2&sortBy=submissions
+Q50:- https://www.geeksforgeeks.org/problems/minimize-the-sum-of-product1525/1?page=1&sprint=a663236c31453b969852f9ea22507634&sortBy=submissions
