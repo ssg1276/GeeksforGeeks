@@ -53,3 +53,4 @@ Q50:- https://www.geeksforgeeks.org/problems/minimize-the-sum-of-product1525/1?p
 Q51:- https://www.geeksforgeeks.org/problems/first-element-to-occur-k-times5150/1
 Q52:-https://www.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 Q53:- https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1?page=1&category=Linked%20List&sortBy=submissions
+Q54:-https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/1?page=1&category=Linked%20List&sortBy=submissions
