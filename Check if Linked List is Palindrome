@@ -1,0 +1,71 @@
+Given a singly linked list of size N of integers. The task is to check if the given linked list is palindrome or not.
+Example 1:
+
+Input:
+N = 3
+value[] = {1,2,1}
+Output: 1
+
+SOLUTION;-
+/*
+struct Node {
+  int data;
+  struct Node *next;
+  Node(int x) {
+    data = x;
+    next = NULL;
+  }
+};
+*/
+
+class Solution{
+  public:
+    //Function to check whether the list is palindrome.
+    Node* reverseLL(Node* head){
+        if(head==NULL  ){
+            return head;
+        }
+        if(head->next==NULL){
+            return head;
+        }
+        Node* temp=head;
+        Node* prevEl=NULL;
+        while(temp!=NULL){
+            Node* frontEl=temp->next;
+            temp->next=prevEl;
+            prevEl=temp;
+            temp=frontEl;
+        }
+        return prevEl;
+    }
+    bool isPalindrome(Node *head)
+    {
+        //Your code here
+        if(head==NULL){
+            return true;
+        }
+        if( head->next==NULL){
+            return true;
+        }
+        Node* slow=head;
+        Node* fast=head;
+        
+        while(fast->next!=NULL && fast->next->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        
+        Node* second=reverseLL(slow->next);
+        Node* first=head;
+        while(second!=NULL){
+            if(first->data!=second->data){
+                reverseLL(second);
+                return false;
+            }
+            first=first->next;
+            second=second->next;
+        }
+        reverseLL(second);
+        return true;
+    }
+};
