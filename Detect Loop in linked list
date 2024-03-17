@@ -1,0 +1,43 @@
+Given a linked list of N nodes. The task is to check if the linked list has a loop. Linked list can contain self loop.
+
+Example 1:
+
+Input:
+N = 3
+value[] = {1,3,4}
+x(position at which tail is connected) = 2
+Output: True
+
+SOLUTION:-
+struct Node
+{
+    int data;
+    struct Node *next;
+    Node(int x) {
+        data = x;
+        next = NULL;
+    }
+
+*/
+class Solution
+{
+    public:
+    //Function to check if the linked list has a loop.
+    bool detectLoop(Node* head)
+    {
+        // your code here
+        if(head==NULL || head->next==NULL){
+            return false;
+        }
+        Node* slow=head;
+        Node* fast = head;
+        while(fast->next!=NULL && fast->next->next!=NULL){
+            slow=slow->next;
+            fast=fast->next->next;
+            if(slow==fast){
+                return true;
+            }
+        }
+        return false;
+    }
+};
