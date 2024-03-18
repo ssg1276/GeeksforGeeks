@@ -59,3 +59,4 @@ Q56:-https://www.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/
 Q57:-https://www.geeksforgeeks.org/problems/delete-middle-of-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 Q58:-https://www.geeksforgeeks.org/problems/delete-without-head-pointer/1
 Q59:-https://www.geeksforgeeks.org/problems/detect-loop-in-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+Q60:-https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1?page=1&category=Linked%20List&sortBy=submissions
