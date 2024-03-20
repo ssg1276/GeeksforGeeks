@@ -1,0 +1,75 @@
+Given Pointer/Reference to the head of the linked list, the task is to Sort the given linked list using Merge Sort.
+Note: If the length of linked list is odd, then the extra node should go in the first list while splitting.
+
+Example 1:
+
+Input:
+N = 5
+value[]  = {3,5,2,4,1}
+Output: 1 2 3 4 5
+
+SOLUTION:-
+/* Structure of the linked list node is as
+struct Node 
+{
+    int data;
+    struct Node* next;
+    Node(int x) { data = x;  next = NULL; }
+};
+*/
+
+
+class Solution{
+  public:
+    //Function to sort the given linked list using Merge Sort.
+    Node* findMiddle(Node* head){
+    Node* slow=head;
+    Node* fast=head->next;
+    while(fast!=NULL && fast->next!=NULL){
+        slow=slow->next;
+        fast=fast->next->next;
+
+    }
+    return slow;
+}
+
+Node*  mergeTwoLists(Node* h1,Node* h2 ){
+    Node* dummyNode=new Node(-1);
+    Node* t1=h1;
+    Node* t2=h2;
+    Node* temp=dummyNode;
+
+    while(t1!=NULL && t2!=NULL){
+        if(t1->data <t2->data){
+            temp->next=t1;
+            temp=t1;
+            t1=t1->next;
+        }
+        else{
+            temp->next=t2;
+            temp=t2;
+            t2=t2->next;
+        }
+
+    }
+    if(t1) temp->next=t1;
+    else temp->next=t2;
+
+    return dummyNode->next;
+}
+    Node* mergeSort(Node* head) {
+        // your code here
+        if(head==NULL || head->next==NULL){
+            return head;
+        }
+        Node* middle=findMiddle(head);
+        Node* left=head;
+        Node* right=middle->next;
+        middle->next=NULL;
+        
+        left=mergeSort(left);
+        right=mergeSort(right);
+        
+        return mergeTwoLists(left,right);
+    }
+};
