@@ -14,45 +14,41 @@ class Solution
     //Function to sort a linked list of 0s, 1s and 2s.
     Node* segregate(Node *head) {
         
-       // Write your code here.
-       if(head==NULL || head->next==NULL){
-           return head;
-       }
-   Node* zeroHead=new Node(-1);
-   Node* firstHead=new Node(-1);
-   Node* secondHead=new Node(-1);
-
-   Node* temp=head;
-   Node* tempZero=zeroHead;
-   Node* tempFirst=firstHead;
-   Node* tempSecond=secondHead;
-
-   while(temp!=NULL){
-       if(temp->data==0){
-           tempZero->next=temp;
-           tempZero=temp;
-       }
-       else if(temp->data==1){
-           tempFirst->next=temp;
-           tempFirst=temp;
-       }
-       else{
-           tempSecond->next=temp;
-           tempSecond=temp;
-       }
-       temp=temp->next;
-   }
-
-  
-        tempZero->next = firstHead->next != NULL ? firstHead->next : secondHead->next;
-        tempFirst->next = secondHead->next;
-
-   
-        delete firstHead;
-        delete secondHead;
-
- 
-        return zeroHead->next;
+          int cnt0=0;
+    int cnt1=0;
+    int cnt2=0;
+    Node* temp=head;
+    while(temp!=NULL){
+        if(temp->data==0){
+            cnt0++;
+        }
+        else if(temp->data==1){
+            cnt1++;
+        }
+        else{
+            cnt2++;
+        }
+        temp=temp->next;
+    }
+    Node* temp2=head;
+    while(temp2!=NULL){
+        if(cnt0){
+            temp2->data=0;
+            cnt0--;
+        }
+        else if(cnt1){
+            temp2->data=1;
+            cnt1--;
+        }
+        else{
+            temp2->data=2;
+            cnt2--;
+        }
+        temp2=temp2->next;
+    }
+    return head;
+        
         
     }
 };
+
