@@ -64,3 +64,4 @@ Q61:-https://www.geeksforgeeks.org/problems/find-length-of-loop/1?itm_source=gee
 Q62:-https://www.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 Q63:-https://www.geeksforgeeks.org/problems/sort-a-linked-list/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 Q64:-https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1
+Q65:-https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1?ref=header_search
