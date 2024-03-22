@@ -1,0 +1,44 @@
+You are given the head of a doubly Linked List and a Key. Your task is to delete all occurrences of the given key and return the new DLL.
+
+Example:
+
+Input: 
+2<->2<->10<->8<->4<->2<->5<->2
+2
+Output: 
+10<->8<->4<->5
+
+SOLUTION:
+class Solution {
+  public:
+    void deleteAllOccurOfX(struct Node** head_ref, int x) {
+        // Write your code here
+        
+        Node* temp = *head_ref;
+        while (temp != NULL) {
+            if (temp->data == x) {
+                if (temp == *head_ref) {
+                    *head_ref = temp->next;
+                    if (*head_ref != NULL) {
+                        (*head_ref)->prev = NULL;
+                    }
+                    delete temp;
+                    temp = *head_ref;
+                    continue;
+                }
+                Node* nextNode = temp->next;
+                Node* prevNode = temp->prev;
+                if (nextNode) {
+                    nextNode->prev = prevNode;
+                }
+                if (prevNode) {
+                    prevNode->next = nextNode;
+                }
+                delete temp;
+                temp = nextNode;
+            } else {
+                temp = temp->next;
+            }
+        }
+    }
+};
