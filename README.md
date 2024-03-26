@@ -67,3 +67,4 @@ Q64:-https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-
 Q65:-https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1?ref=header_search
 Q66:-https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1
 Q67:- https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
+Q68:-https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1?ref=header_search
