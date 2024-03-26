@@ -68,3 +68,4 @@ Q65:-https://www.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-ke
 Q66:-https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1
 Q67:- https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
 Q68:-https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1?ref=header_search
+Q69:-https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
