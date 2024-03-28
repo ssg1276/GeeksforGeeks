@@ -1,0 +1,40 @@
+Given a set of positive integers, find all its subsets.
+
+Example 1 :
+
+Input : 
+array = {1, 2, 3}
+Output :
+// this space denotes null element. 
+1
+1 2
+1 2 3
+1 3
+2
+2 3
+3
+
+SOLUTION;-
+class Solution
+{
+    public:
+    vector<vector<int> > subsets(vector<int>& A)
+    {
+        //code here
+        vector<vector<int>> ans;
+        int n=A.size();
+        int sub=1<<n;
+        
+        for(int num=0;num<sub;num++){
+            vector<int> list;
+            for(int i=0;i<n;i++){
+                if(num&(1<<i)){
+                    list.push_back(A[i]);
+                }
+            }
+            ans.push_back(list);
+        }
+        sort(ans.begin(),ans.end());
+        return ans;
+    }
+};
