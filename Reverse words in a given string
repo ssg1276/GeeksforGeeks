@@ -1,0 +1,27 @@
+Given a String S, reverse the string without reversing its individual words. Words are separated by dots.
+
+Example 1:
+Input:
+S = i.like.this.program.very.much
+Output: much.very.program.this.like.i
+
+SOLUTION;-
+class Solution
+{
+    public:
+    //Function to reverse words in a given string.
+    string reverseWords(string str) 
+    { 
+        
+           int j = 0;
+
+    for (int i = 0; i <= str.size(); i++) {
+        if (str[i] == '.' || i == str.size()) {
+           { reverse(str.begin() + j, str.begin() + i);
+            j = i + 1;}
+        }
+    }
+    reverse(str.begin(), str.end());
+    return str;
+    } 
+};
