@@ -72,3 +72,4 @@ Q69:-https://www.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-ra
 Q70:-https://www.geeksforgeeks.org/problems/bit-difference-1587115620/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 Q71:-https://www.geeksforgeeks.org/problems/subsets-1613027340/0?ref=header_search
 Q72:-https://www.geeksforgeeks.org/problems/reverse-words-in-a-given-string5459/1?page=1&difficulty=Easy&sortBy=submissions
+Q73:-https://www.geeksforgeeks.org/problems/division-without-using-multiplication-division-and-mod-operator/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
