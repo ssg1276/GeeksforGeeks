@@ -1,0 +1,36 @@
+Given two numbers L and R(L<R). Count all the prime numbers in the range [L, R].
+
+Example 1:
+
+Input:
+L=1,R=10
+Output:
+4
+
+SOLUTION;-
+class Solution {
+  public:
+
+    
+    int countPrimes(int L, int R) {
+        // code here
+     int cnt=0;
+    vector<int>arr(R+1,1);
+    arr[0]=arr[1]=0;
+    
+     for(int i=2;i*i<=R;i++){
+         if(arr[i]==1){
+             for(int j=i*i;j<=R;j+=i){
+                 arr[j]=0;
+             }
+         }
+     }
+     
+     for(int i=L;i<=R;i++){
+         if(arr[i]==1){
+             cnt++;
+         }
+     }
+     return cnt;
+    }
+};
