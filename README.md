@@ -77,3 +77,4 @@ Q74:-https://www.geeksforgeeks.org/problems/find-xor-of-numbers-from-l-to-r/1?re
 Q75:-https://www.geeksforgeeks.org/problems/count-primes-in-range1604/1?ref=header_search
 Q76:-https://www.geeksforgeeks.org/problems/longest-distinct-characters-in-string5848/1
 Q77:-https://www.geeksforgeeks.org/problems/maximize-number-of-1s0905/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+Q78:-https://www.geeksforgeeks.org/problems/count-substring/1?ref=header_search
