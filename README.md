@@ -79,3 +79,4 @@ Q76:-https://www.geeksforgeeks.org/problems/longest-distinct-characters-in-strin
 Q77:-https://www.geeksforgeeks.org/problems/maximize-number-of-1s0905/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 Q78:-https://www.geeksforgeeks.org/problems/count-substring/1?ref=header_search
 Q79:-https://www.geeksforgeeks.org/problems/longest-repeating-character-replacement/1?ref=header_search
+Q80:-https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
