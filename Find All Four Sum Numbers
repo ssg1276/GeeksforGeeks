@@ -1,0 +1,59 @@
+Given an array A of integers and another number K. Find all the unique quadruple from the given array that sums up to K.
+Also note that all the quadruples which you return should be internally sorted, ie for any quadruple [q1, q2, q3, q4] the following should follow: q1 <= q2 <= q3 <= q4.
+
+Example 1:
+Input:
+N = 5, K = 3
+A[] = {0,0,2,1,1}
+Output: 0 0 1 2 
+
+SOLUTION:-
+class Solution{
+    public:
+    // arr[] : int input array of integers
+    // k : the quadruple sum required
+    vector<vector<int> > fourSum(vector<int> &arr, int k) {
+        // Your code goes here
+        int n=arr.size();
+        sort(arr.begin(),arr.end());
+        vector<vector<int>> ans;
+        
+        for(int i=0;i<n;i++){
+            if(i>0 && arr[i]==arr[i-1]){
+                continue;
+            }
+            for(int j=i+1;j<n;j++){
+                if(j!=i+1 && arr[j]==arr[j-1]){
+                    continue;
+                }
+                int z=j+1;
+                int l=n-1;
+                while(z<l){
+                    long long sum=arr[i]+arr[j];
+                    sum+=arr[z];
+                    sum+=arr[l];
+                    
+                    if(sum==k){
+                        vector<int> temp={arr[i], arr[j], arr[z], arr[l]};
+                        ans.push_back(temp);
+                        z++;
+                        l--;
+                        while(z<l && arr[z]==arr[z-1]) {
+                           z++;
+                        }
+                        while(z<l && arr[l]==arr[l+1]){
+                            l--;
+                        }
+                    }
+                    else if(sum<k){
+                        z++;
+                    }
+                    else{
+                        l--;
+                    }
+                }
+            }
+        }
+        return ans;
+    }
+};
