@@ -82,3 +82,4 @@ Q79:-https://www.geeksforgeeks.org/problems/longest-repeating-character-replacem
 Q80:-https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 Q81:-https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1?ref=header_search
 Q82:-https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1?ref=header_search
+Q83:-https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1?ref=header_search
