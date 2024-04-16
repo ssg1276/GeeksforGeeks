@@ -83,3 +83,4 @@ Q80:-https://www.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115
 Q81:-https://www.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1?ref=header_search
 Q82:-https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1?ref=header_search
 Q83:-https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1?ref=header_search
+Q84:-https://www.geeksforgeeks.org/problems/subarrays-with-k-different-integers/1?ref=header_search
