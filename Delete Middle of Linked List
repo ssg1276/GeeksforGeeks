@@ -21,7 +21,6 @@ struct Node
 };
 
 */
-
 // Deletes middle of linked list and returns head of the modified list
 class Solution{
     public:
