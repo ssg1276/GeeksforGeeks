@@ -85,3 +85,4 @@ Q82:-https://www.geeksforgeeks.org/problems/overlapping-intervals--170633/1?ref=
 Q83:-https://www.geeksforgeeks.org/problems/rotate-by-90-degree-1587115621/1?ref=header_search
 Q84:-https://www.geeksforgeeks.org/problems/subarrays-with-k-different-integers/1?ref=header_search
 Q85:-https://www.geeksforgeeks.org/problems/count-good-numbers/1?ref=gcse
+Q86:-https://www.geeksforgeeks.org/problems/search-in-a-matrix17201720/1?ref=gcse
