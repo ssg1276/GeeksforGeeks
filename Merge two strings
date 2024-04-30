@@ -1,0 +1,41 @@
+Given two strings S1 and S2 as input, the task is to merge them alternatively i.e. the first character of S1 then the first character of S2 and so on till the strings end.
+NOTE: Add the whole string if other string is empty.
+
+Example 1:
+
+Input:
+S1 = "Hello" S2 = "Bye"
+Output: HBeylelo
+
+SOLUTION:-
+
+string merge (string S1, string S2)
+{
+    // your code here
+    int n=S1.length();
+    int m=S2.length();
+    
+    int i=0;
+    int j=0;
+    string ans="";
+    
+    while(i<n && j<m){
+        if(i==j){
+            ans+=S1[i];
+            i++;
+        }
+        else{
+            ans+=S2[j];
+            j++;
+        }
+    }
+    while(i<n){
+        ans+=S1[i];
+            i++;
+    }
+    while(j<m){
+         ans+=S2[j];
+            j++;
+    }
+    return ans;
+}
