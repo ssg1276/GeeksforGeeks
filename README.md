@@ -89,3 +89,4 @@ Q86:-https://www.geeksforgeeks.org/problems/search-in-a-matrix17201720/1?ref=gcs
 Q87:-https://www.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1?ref=gcse
 Q88:-https://www.geeksforgeeks.org/problems/maximum-average-subarray5859/1
 Q89:-https://www.geeksforgeeks.org/problems/merge-two-strings2736/1
+Q90:-https://www.geeksforgeeks.org/problems/armstrong-numbers2727/1?page=3&sortBy=difficulty
