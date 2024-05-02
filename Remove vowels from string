@@ -1,0 +1,24 @@
+Given a string, remove the vowels from the string.
+
+Example 1:
+
+Input: S = "welcome to geeksforgeeks"
+Output: wlcm t gksfrgks
+
+SOLUTION:-
+class Solution{
+public:	
+		
+	string removeVowels(string S) 
+	{
+	     unordered_set<char> vowels = {'a', 'e', 'i', 'o', 'u'};
+        string ans;
+        ans.reserve(S.size()); 
+        for (char c : S) {
+            if (vowels.find(c) == vowels.end()) {
+                ans.push_back(c);
+            }
+        }
+        return ans;
+	}
+};
