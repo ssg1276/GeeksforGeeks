@@ -1,0 +1,79 @@
+Given two numbers, num1 and num2, represented by linked lists of size n and m respectively. The task is to return a linked list that represents the sum of these two numbers.
+
+For example, the number 190 will be represented by the linked list, 1->9->0->null, similarly 25 by 2->5->null. Sum of these two numbers is 190 + 25 = 215, which will be represented by 2->1->5->null. You are required to return the head of the linked list 2->1->5->null.
+
+Note: There can be leading zeros in the input lists, but there should not be any leading zeros in the output list.
+
+Example 1:
+
+Input:
+n = 2
+num1 = 45 (4->5->null)
+m = 3
+num2 = 345 (3->4->5->null)
+Output: 
+3->9->0->null  
+
+SOLUTION:-
+struct Node {
+    int data;
+    struct Node* next;
+    Node(int x) {
+        data = x;
+        next = NULL;
+    }
+};
+
+*/
+
+class Solution
+{
+    public:
+    //Function to add two numbers represented by linked list.
+    struct Node* reverse(struct Node* head){
+        struct Node* prevEl=NULL;
+        struct Node* temp=head;
+        if(head==NULL || head->next==NULL){
+            return head;
+        }
+        while(temp!=NULL){
+            struct Node* frontEl=temp->next;
+            temp->next=prevEl;
+            prevEl=temp;
+            temp=frontEl;
+        }
+        return prevEl;
+    }
+    struct Node* addTwoLists(struct Node* num1, struct Node* num2)
+    {
+        struct Node* temp1=reverse(num1);
+        struct Node* temp2=reverse(num2);
+        struct Node* dummyNode=new Node(-1);
+        int carry=0;
+        struct Node* curr=dummyNode;
+        while(temp1!=NULL || temp2!=NULL){
+            int sum=carry;
+            if(temp1) sum+=temp1->data;
+            if(temp2) sum+=temp2->data;
+            struct Node* newNode=new Node(sum%10);
+            carry=sum/10;
+            curr->next=newNode;
+            curr=newNode;
+            if(temp1) temp1=temp1->next;
+            if(temp2) temp2=temp2->next;
+        }
+        if(carry){
+            struct Node* newNode=new Node(carry);
+            curr->next=newNode;
+        }
+
+        struct Node* ans=reverse(dummyNode->next);
+           while(ans->data==0 and ans->next!=NULL)
+        {
+            ans=ans->next;
+        }
+        return ans;
+     
+    }
+
+};
