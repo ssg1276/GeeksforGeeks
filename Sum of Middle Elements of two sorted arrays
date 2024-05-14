@@ -1,0 +1,71 @@
+Given 2 sorted integer arrays Ar1 and Ar2 of size N each. Merge the given arrays and find the sum of the two middle elements of the merged array.
+
+Example 1:
+
+Input:
+N = 5
+Ar1[] = {1, 2, 4, 6, 10}
+Ar2[] = {4, 5, 6, 9, 12}
+Output: 11
+
+SOLUTION:-
+class Solution {
+public:
+    int findMidSum(int ar1[], int ar2[], int n) {
+      
+           int z=n+n;
+           int el1=-1,el2=-1;
+           int cnt=0;
+           int ind1=z/2 - 1;
+           int ind2=z/2;
+           int i=0,j=0;
+           
+           while(i<n && j<n){
+               if(ar1[i]<ar2[j]){
+                   if(cnt==ind1){
+                       el1=ar1[i];
+                       
+                   }
+                   if(cnt==ind2){
+                       el2=ar1[i];
+                   }
+                   cnt++;
+                   i++;
+               }
+               else{
+                    if(cnt==ind1){
+                       el1=ar2[j];
+                       
+                   }
+                   if(cnt==ind2){
+                       el2=ar2[j];
+                   }
+                   cnt++;
+                   j++;
+               }
+           }
+           while(i<n ){
+               if(cnt==ind1){
+                       el1=ar1[i];
+                       
+                   }
+                   if(cnt==ind2){
+                       el2=ar1[i];
+                   }
+                   cnt++;
+                   i++; 
+           }
+           while(j<n){
+                if(cnt==ind1){
+                       el1=ar2[j];
+                       
+                   }
+                   if(cnt==ind2){
+                       el2=ar2[j];
+                   }
+                   cnt++;
+                   j++;
+           }
+           return el1+el2;
+    }
+};
