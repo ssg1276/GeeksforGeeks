@@ -1,0 +1,53 @@
+Given two sorted arrays arr1 and arr2 of size N and M respectively and an element K. The task is to find the element that would be at the kth position of the final sorted array.
+ 
+
+Example 1:
+
+Input:
+arr1[] = {2, 3, 6, 7, 9}
+arr2[] = {1, 4, 8, 10}
+k = 5
+Output:
+6
+
+SOLUTION:-
+class Solution{
+    public:
+    int kthElement(int arr1[], int arr2[], int n, int m, int k)
+    {
+        int cnt=0;
+        int i=0;
+        int j=0;
+        
+        while(i<n && j<m){
+            if(arr1[i]<arr2[j]){
+                if(cnt==k-1){
+                    return arr1[i];
+                }
+                cnt++;
+                i++;
+            }
+            else {
+                if(cnt==k-1){
+                    return arr2[j];
+                }
+                cnt++;
+                j++;
+            }
+        }
+        while(i<n){
+            if(cnt==k-1){
+                    return arr1[i];
+                }
+                cnt++;
+                i++;
+        }
+        while(j<m){
+            if(cnt==k-1){
+                    return arr2[j];
+                }
+                cnt++;
+                j++;
+        }
+    }
+};
