@@ -95,3 +95,4 @@ Q91:-https://www.geeksforgeeks.org/problems/remove-vowels-from-string1446/1?page
 Q92:-https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
 Q93:-https://www.geeksforgeeks.org/problems/sum-of-middle-elements-of-two-sorted-arrays2305/1
 Q94:-https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=k-th-element-of-two-sorted-array
+Q95:-https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=infix-to-postfix
